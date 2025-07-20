@@ -1,4 +1,5 @@
-cd client
+# In your project folder:
+echo "// trigger redeploy" >> client/src/dummy.js
 git add .
-git commit -m "✅ Final fixes for Tailwind and build"
+git commit -m "Trigger redeploy after .env update"
 git push
