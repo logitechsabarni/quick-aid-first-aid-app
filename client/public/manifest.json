@@ -1,0 +1,15 @@
+{
+  "name": "QuickAid",
+  "short_name": "QuickAid",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "QuickAid - Instant first aid help & info",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
