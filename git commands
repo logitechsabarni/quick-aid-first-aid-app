@@ -1,20 +1,14 @@
-# Navigate to your root project folder
+# 1. Navigate to your project folder
 cd path/to/quickaid-first-aid-app
 
-# Step 1: Initialize Git
-git init
+# 2. Check status to see changed files
+git status
 
-# Step 2: Add all files to staging
+# 3. Add all updated files to staging
 git add .
 
-# Step 3: Commit the files
-git commit -m "Initial commit: QuickAid full project with frontend and backend"
+# 4. Commit your changes with a message
+git commit -m "Fixed index.html and ensured proper Vite structure for deployment"
 
-# Step 4: Connect to your GitHub repo (create it first at https://github.com/new)
-git remote add origin https://github.com/logitechsabarni/quickaid-first-aid-app.git
-
-# Step 5: Rename branch to main (GitHub default)
-git branch -M main
-
-# Step 6: Push code to GitHub
-git push -u origin main
+# 5. Push to your GitHub repo
+git push origin main
