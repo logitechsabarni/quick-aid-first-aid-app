@@ -1,5 +1,6 @@
+cd quickaid-backend
 git init
-git remote add origin https://github.com/your-username/quickaid-backend.git
+git remote add origin https://github.com/logitechsabarni/quickaid-backend.git
 git add .
 git commit -m "Initial backend commit"
 git branch -M main
