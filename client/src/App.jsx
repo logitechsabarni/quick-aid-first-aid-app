@@ -1,15 +1,27 @@
 import { useEffect } from "react";
+import Emergency from "./pages/Emergency";
 
 function App() {
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL}/api/hello`)
-      .then((res) => res.json())
-      .then((data) => {
-        console.log("Data from backend:", data);
-      });
+    const fetchHello = async () => {
+      try {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/hello`);
+        const data = await response.json();
+        console.log("Backend says:", data.message);
+      } catch (err) {
+        console.error("Error connecting to backend:", err);
+      }
+    };
+
+    fetchHello();
   }, []);
 
-  return <h1>QuickAid</h1>;
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-red-50 p-4">
+      <h1 className="text-4xl font-bold text-red-600 mb-4">QuickAid 🚑</h1>
+      <Emergency />
+    </div>
+  );
 }
 
 export default App;
