@@ -1,5 +1,3 @@
-# In your project folder:
-echo "// trigger redeploy" >> client/src/dummy.js
 git add .
-git commit -m "Trigger redeploy after .env update"
+git commit -m "fix: use VITE_API_URL for backend"
 git push
