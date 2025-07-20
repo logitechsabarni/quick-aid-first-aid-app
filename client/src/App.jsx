@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
 const App = () => {
   return (
-    <div className="min-h-screen p-4 bg-white">
+    <div>
+      <Navbar />
       <Home />
     </div>
   );
