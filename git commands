@@ -1,14 +1,4 @@
-# 1. Navigate to your project folder
-cd path/to/quickaid-first-aid-app
-
-# 2. Check status to see changed files
-git status
-
-# 3. Add all updated files to staging
+cd client
 git add .
-
-# 4. Commit your changes with a message
-git commit -m "Fixed index.html and ensured proper Vite structure for deployment"
-
-# 5. Push to your GitHub repo
-git push origin main
+git commit -m "✅ Final fixes for Tailwind and build"
+git push
