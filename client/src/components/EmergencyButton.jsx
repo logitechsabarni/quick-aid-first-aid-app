@@ -1,3 +1,4 @@
+// client/src/components/EmergencyButton.jsx
 import React from 'react';
 
 const emojiMap = {
