@@ -32,10 +32,10 @@ In critical situations like burns, cuts, seizures, or choking, people often pani
 ---
 
 ## 🧪 How to Run Locally:- 
-The backend deployement URL is:- 
+The backend deployement URL is:- https://quickaid-backend-2isz.onrender.com
 
 
-The frontend deployment URL is:- 
+The frontend deployment URL is:- https://quick-aid-first-aid-app-8zsl.vercel.app/
 
 ### Frontend
 ```bash
